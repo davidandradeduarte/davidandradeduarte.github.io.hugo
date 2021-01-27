@@ -1,0 +1,13 @@
+<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; {{ now.Format "2006" }}</span>
+            {{ if .Site.Author.name }}<span><a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></span>{{ end }}
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>{{ .Site.Params.footerLeft | default "built with <a href=\"http://gohugo.io\">gohugo.io</a>" | safeHTML }}</span>
+          </div>
+    </div>
+</footer>
