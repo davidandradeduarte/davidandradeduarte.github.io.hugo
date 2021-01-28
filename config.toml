@@ -22,7 +22,7 @@ publishDir   = "public"
 buildDrafts  = false
 buildFuture  = false
 buildExpired = false
-canonifyURLs = true
+canonifyURLs = false
 
 enableRobotsTXT = true
 enableGitInfo   = false
@@ -33,19 +33,19 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
+# [permalinks]
+#   posts = "/posts/:year/:month/:title/"
 
 [author]
   name = "David Duarte"
 
-[blackfriday]
-  hrefTargetBlank = true
+# [blackfriday]
+#   hrefTargetBlank = true
 
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
+# [taxonomies]
+#   tag      = "tags"
+#   category = "categories"
+#   series   = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -70,7 +70,7 @@ disableHugoGeneratorInject = false
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Sharing buttons
   #
@@ -154,7 +154,7 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = ""
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
