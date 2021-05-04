@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Backend Software Engineer"
+  homeSubtitle = "Software Engineer"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -103,8 +103,8 @@ disableHugoGeneratorInject = false
     msapplication = "#1b1c1d"
 
   [params.logo]
-    logoMark     = ">"
-    logoText     = "$ cd ~/"
+    logoMark     = ""
+    logoText     = "$ "
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -133,20 +133,20 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/dvduarte95/"
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/davidandradeduarte/"
 
   [[params.social]]
-    name = "email"
-    url  = "mailto:davidandradeduarte@gmail.com"
+    name = "twitter"
+    url  = "https://twitter.com/dvduarte95/"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/davidandradeduarte/"
 
   [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/davidandradeduarte/"
+    name = "email"
+    url  = "mailto:davidandradeduarte@gmail.com"
 
 #   [[params.social]]
 #     name = "stackoverflow"
